@@ -12,6 +12,8 @@ function Clock()
 	doTick();
 };
 
+// The Game
+
 Clock.prototype.Time = function()
 {
 	return Math.floor(time / 60) + ":" + Math.floor((time / 60 - hours) * 60);
